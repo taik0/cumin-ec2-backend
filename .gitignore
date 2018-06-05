@@ -1,0 +1,9 @@
+/build/
+/doc/build/
+/.cache/
+/.eggs/
+/dist/
+/logs/
+/*.egg-info/
+__pycache__/
+*.pyc
