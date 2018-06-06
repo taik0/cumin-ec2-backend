@@ -165,7 +165,6 @@ class EC2Query(BaseQuery):
             else:
                 val = [self.ec2_params[key]]
             filters.append({'Name': key, 'Values': val})
-        print(filters)
         return filters
 
 GRAMMAR_PREFIX = 'E'
